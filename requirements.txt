@@ -1,5 +1,4 @@
 # Core dependencies
-python==3.10.0
 numpy==1.19.5
 opencv-python>=4.5.3
 mediapipe==0.10.11
@@ -10,34 +9,34 @@ PyAutoGUI>=0.9.53
 pyttsx3>=2.90
 openai-whisper>=20230314
 picovoice>=2.1.0
-pvporcupine>=2.1.0  # Porcupine wake word detection
-pyaudio>=0.2.11     # Required for audio input/output
-SpeechRecognition>=3.8.1  # Fallback speech recognition
-pydub>=0.25.1       # Audio file manipulation
-pycaw>=20220416     # Volume control for Windows
+pvporcupine>=2.1.0
+pyaudio>=0.2.11
+SpeechRecognition>=3.8.1
+pydub>=0.25.1
+pycaw>=20220416
 
 # Web & UI
 streamlit>=1.11.0
 selenium>=4.1.0
-webdriver-manager>=3.5.2  # For managing Selenium drivers
-beautifulsoup4>=4.10.0    # For web scraping if needed
+webdriver-manager>=3.5.2
+beautifulsoup4>=4.10.0
 
 # NLP & Intent Recognition
 rasa==3.6.21
-protobuf==4.23.3   # Required for Rasa & Mediapipe compatibility
+protobuf==4.23.3
 nltk>=3.6.5
-spacy>=3.2.0       # For advanced NLP
+spacy>=3.2.0
 
 # Database
-SQLAlchemy>=1.4.27   # SQL toolkit and ORM
-alembic>=1.7.5       # Database migrations
-pysqlite3>=0.4.6     # SQLite support
+SQLAlchemy>=1.4.27
+alembic>=1.7.5
+pysqlite3>=0.4.6
 
 # Authentication & Security
-pyjwt>=2.3.0         # JWT token handling
-bcrypt>=3.2.0        # Password hashing
-python-dotenv>=0.19.2  # Environment variable management
-cryptography>=36.0.0   # Encryption utilities
+pyjwt>=2.3.0
+bcrypt>=3.2.0
+python-dotenv>=0.19.2
+cryptography>=36.0.0
 
 # Testing
 pytest>=6.2.5
@@ -45,14 +44,14 @@ pytest-cov>=2.12.1
 mock>=4.0.3
 
 # Logging & Monitoring
-structlog>=21.5.0    # Structured logging
-rich>=10.12.0        # Rich text and formatting in terminal
+structlog>=21.5.0
+rich>=10.12.0
 
 # Development tools
-black>=21.10b0       # Code formatting
-isort>=5.9.3         # Import sorting
-flake8>=4.0.1        # Linting
-mypy>=0.910          # Type checking
+black>=21.10b0
+isort>=5.9.3
+flake8>=4.0.1
+mypy>=0.910
 
 # Documentation
 sphinx>=4.3.0
