@@ -1,7 +1,8 @@
 # Core dependencies
-numpy>=1.21.0
+python==3.10.0
+numpy==1.19.5
 opencv-python>=4.5.3
-mediapipe>=0.8.9
+mediapipe==0.10.11
 matplotlib>=3.4.3
 PyAutoGUI>=0.9.53
 
@@ -22,9 +23,10 @@ webdriver-manager>=3.5.2  # For managing Selenium drivers
 beautifulsoup4>=4.10.0    # For web scraping if needed
 
 # NLP & Intent Recognition
-rasa>=3.0.0
+rasa==3.6.21
+protobuf==4.23.3   # Required for Rasa & Mediapipe compatibility
 nltk>=3.6.5
-spacy>=3.2.0         # For advanced NLP
+spacy>=3.2.0       # For advanced NLP
 
 # Database
 SQLAlchemy>=1.4.27   # SQL toolkit and ORM
